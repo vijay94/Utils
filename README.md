@@ -9,3 +9,6 @@ Name Matching Logic - Used to compare two strings, commonly used for matching tw
 # python
 Request and Response Logging Utils -Wants to test an api with many possible inputs. Declare the request params and run this Util...
 
+# Javascript
+Book Index Sort - Sort an array in Book Index order.
+
