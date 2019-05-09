@@ -8,9 +8,10 @@ array.sort(function (string2, string1) {
 		if (stringArray1[i] && stringArray2[i]) {
 			if (parseInt(stringArray1[i]) > parseInt(stringArray2[i])) {
 				return -1;
-			}
-			else if (stringArray1[i] == stringArray2[i]) {
+			} else if (stringArray1[i] == stringArray2[i]) {
 				equalCount++;
+			} else {
+				return 1;
 			}
 		}
 		else {
